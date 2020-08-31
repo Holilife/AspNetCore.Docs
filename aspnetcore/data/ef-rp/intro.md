@@ -276,6 +276,8 @@ The scaffolding process:
 * Adds the context to dependency injection in *Startup.cs*.
 * Adds a database connection string to *appsettings.json*.
 
+Repeat scaffolding process for the Course and Enrollment entities.
+
 ## Database connection string
 
 # [Visual Studio](#tab/visual-studio)
@@ -312,6 +314,7 @@ Since an entity set contains multiple entities, the DBSet properties should be p
 To make the Razor Pages code match the new DBSet name, make a global change across the whole project of `_context.Student` to `_context.Students`.  There are 8 occurrences.
 
 Build the project to verify there are no compiler errors.
+
 
 ## Startup.cs
 
